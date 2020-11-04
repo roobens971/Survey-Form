@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<!-- User Story #1 -->
+	<h1 id="title">freeCodeCamp Survey Form</h1>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+			<!-- User Story #2 -->
+		<p id="description">University of Harvard Men's Soccer Team Questionnaire</p>
+
+
+			<!-- User Story #3/#4 and #5-->
+	<form id="survey-form">
+		<label id="name-label">Name</label><br>
+	<input type="text" id="name" name="name" required="name" placeholder="Enter your Name">
+		<br>
+	<br>
+		<label id="email-label">Email</label><br>
+	<input type="email" id="email" name="email" required="email" placeholder="Enter your Email">
+	<br>
+	<br>
+
+		<label id="number-label">Number</label><br>
+	<input type="number" id="number" name="number" min="1" max="10" placeholder="Age">
+		<br>
+	<br>
+
+			<!-- Position of the player -->
+		<label for="position">what's your position?</label><br>
+	<select id="dropdown" name="soccer">
+		<option value="goalie">Goalie</option>
+		<option value="defense">Defense</option>
+		<option value="midfielder">MIdfielder</option>
+		<option value="forward striker">Forward Striker</option>
+	</select>
+
+			<!-- <RP>adio Button -->
+	  <p>Would you recommend Harvard Univezrsity Soccer Team to a friend?</p>
+  <input type="radio" id="definitely" class="radio-inline" name="user-recommend" value="Definitely">
+  <label for="user-recommend">Definitely</label><br>
+  <input type="radio" id="maybe" class="radio-inline" name="user-recommend" value="Maybe">
+  <label for="user-recommend">Maybe</label><br>
+  <input type="radio" id="not sure" class="radio-inline" name="user-recommend" value="Not sure">
+  <label for="user-recommend">Not sure</label>
+  		<br>
+  	<br>
+
+			<!-- height of the player -->
+		<label for="nationality">what's your Nationality?</label><br>
+	<select id="dropdown" name="nationality">
+		<option value="american">American</option>
+		<option value="french">French</option>
+		<option value="Mexican">Mexican</option>
+		<option value="spanish">Spanish</option>
+		<option value="english">English</option>
+		<option value="italian">Italian</option>
+		<option value="German">German</option>
+	</select>
+
+		<p>what's your favorite Soccer team?</p>
+	<input type="checkbox" id="prefer" name="prefer" value="Fc Barcelone">
+<label for="prefer">Fc Barcelone</label><br>
+<input type="checkbox" id="prefer" name="prefer" value="Real Madrid">
+<label for="prefer">Real Madrid</label><br>
+<input type="checkbox" id="prefer" name="prefer" value="Fc Bayern">
+<label for="prefer">Fc Bayern</label>
+		<br>
+	<br>
+
+		<label for="comments">Any comments or suggestions?</label><br>
+	<textarea id="comments" name="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
+
+	<!-- Submit Buttonn -->
+		<button type="submit" form="form1" id="submit" value="Submit">Submit</button>
+
+	</form>
+	</form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+	font-family: sans-serif;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+label{
+	font-size: 18px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+input, textarea, select {
+	display: block;
+	width: 97%;
+	padding-bottom: 20px;
+}
+
+textarea{
+	display: block;
+	width: 97%;
+}
+
+form{
+	background-color: yellow;
+	padding: 40px, 40px, 40px, 40px;
+}
+
+#button-area{
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+.my-custom-input-label-box input[type="checkbox"] {
+	display:none;
+}
+
+.my-custom-input-label-box input + label {
+	display: inline-block;	
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+	background-image: url(/images/service/checkbox-unchecked.png);
+}
+.my-custom-input-label-box input[type="checkbox"]:checked + label {
+	background-image: url(/images/service/checkbox-checked.png)
+}
+
